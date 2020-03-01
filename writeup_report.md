@@ -58,7 +58,7 @@ I have used well known implementation and also as suggested by course i.e.. Nivi
 
 The model includes RELU layers to introduce nonlinearity  and the data is normalized in the model using a Keras lambda layer.
 
-![Nvidia]: https://arxiv.org/pdf/1604.07316v1.pdf
+[Nvidia](https://arxiv.org/pdf/1604.07316v1.pdf)
 
 
 
@@ -106,7 +106,7 @@ The final step was to run the simulator to see how well the car was driving arou
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road. The link to video can be found here 
 
 
-![Video]:run1.mp4
+[Video](run1.mp4)
 
 
 #### 2. Final Model Architecture
@@ -145,7 +145,19 @@ To capture good driving behavior, I first recorded on track by driving forward w
 Finally, i tried to collect data by driving on second track which was very hard so could drive only for sometime. All these collected data were merged into single driving_log.csv to use it for training the model.
 
 I did collect more data by driving around with simulator more than 3 times and finally fixed the data collected which was performing well on model and deleted rest.
+Some of the sample tarining data images can be found here.
+[imgg1](./Output_images/img1.png)
 
+[img2](./Output_images/img2.png)
+
+[img3](./Output_images/img3.png)
+
+[img4](./Output_images/img4.png)
+
+[img5](./Output_images/img5.png)
+
+The distribution steering values over number of samples can be found here
+[sample](./Output_imgaes/trainingdata.png)
 After the collection process, I have used very basic techniques as pre-processing ones, considered only normalization and cropping of images as it was sufficient for the project. Of course, data augmentation might help to improve techniques such as brightness, flipping images etc.,
 
 
