@@ -58,7 +58,7 @@ I have used well known implementation and also as suggested by course i.e.. Nivi
 
 The model includes RELU layers to introduce nonlinearity  and the data is normalized in the model using a Keras lambda layer.
 
-[Nvidia]: https://arxiv.org/pdf/1604.07316v1.pdf	"" CNN""
+[Nvidia]:(https://arxiv.org/pdf/1604.07316v1.pdf)
 
 
 
@@ -66,7 +66,7 @@ The model includes RELU layers to introduce nonlinearity  and the data is normal
 
 Each convolutional layer and fully-connected layer has RELU activation, and a dropout layer with 30% drop-rate is implemented after each convolutional layer to avoid overfitting in the network layered architecture.
 
-The model was trained to reduce mean squared error. The visualization of trained and validation data MSE error look like this![Model_Loss](.\Output_images\Model_loss.jpg)
+The model was trained to reduce mean squared error. The visualization of trained and validation data MSE error look like this![Model_Loss](./Output_images/Model_loss.jpg)
 
 The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
