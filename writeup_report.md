@@ -54,12 +54,9 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-I have used well known implementation and also as suggested by course i.e.. Nivida Architecture. The model features five convolutional layers and four fully-connected layers.
+I have used well known implementation and also as suggested by course i.e.. Nivida Architecture. The link to paper is here [Nvidia](https://arxiv.org/pdf/1604.07316v1.pdf).The model features five convolutional layers and four fully-connected layers.
 
 The model includes RELU layers to introduce nonlinearity  and the data is normalized in the model using a Keras lambda layer.
-
-[Nvidia](https://arxiv.org/pdf/1604.07316v1.pdf)
-
 
 
 #### 2. Attempts to reduce overfitting in the model
@@ -146,7 +143,8 @@ Finally, i tried to collect data by driving on second track which was very hard 
 
 I did collect more data by driving around with simulator more than 3 times and finally fixed the data collected which was performing well on model and deleted rest.
 Some of the sample tarining data images can be found here.
-[imgg1](./Output_images/img1.png)
+
+#![imgg1](./Output_images/img1.png)
 
 [img2](./Output_images/img2.png)
 
