@@ -155,7 +155,7 @@ Some of the sample tarining data images can be found here.
 ![img5](./Output_images/img5.png)
 
 The distribution steering values over number of samples can be found here
-![sample](./Output_imgaes/trainingdata.png)
+![sample](./Output_images/trainingdata.png)
 After the collection process, I have used very basic techniques as pre-processing ones, considered only normalization and cropping of images as it was sufficient for the project. Of course, data augmentation might help to improve techniques such as brightness, flipping images etc.,
 
 
