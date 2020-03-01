@@ -58,7 +58,7 @@ I have used well known implementation and also as suggested by course i.e.. Nivi
 
 The model includes RELU layers to introduce nonlinearity  and the data is normalized in the model using a Keras lambda layer.
 
-[Nvidia]: https://arxiv.org/pdf/1604.07316v1.pdf
+![Nvidia]: https://arxiv.org/pdf/1604.07316v1.pdf
 
 
 
@@ -106,7 +106,7 @@ The final step was to run the simulator to see how well the car was driving arou
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road. The link to video can be found here 
 
 
-![Video]: run1.mp4
+![Video]:run1.mp4
 
 
 #### 2. Final Model Architecture
