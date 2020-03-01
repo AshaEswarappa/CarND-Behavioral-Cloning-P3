@@ -144,18 +144,18 @@ Finally, i tried to collect data by driving on second track which was very hard 
 I did collect more data by driving around with simulator more than 3 times and finally fixed the data collected which was performing well on model and deleted rest.
 Some of the sample tarining data images can be found here.
 
-#![imgg1](./Output_images/img1.png)
+![imgg1](./Output_images/img1.png)
 
-[img2](./Output_images/img2.png)
+![img2](./Output_images/img2.png)
 
-[img3](./Output_images/img3.png)
+![img3](./Output_images/img3.png)
 
-[img4](./Output_images/img4.png)
+![img4](./Output_images/img4.png)
 
-[img5](./Output_images/img5.png)
+![img5](./Output_images/img5.png)
 
 The distribution steering values over number of samples can be found here
-[sample](./Output_imgaes/trainingdata.png)
+![sample](./Output_imgaes/trainingdata.png)
 After the collection process, I have used very basic techniques as pre-processing ones, considered only normalization and cropping of images as it was sufficient for the project. Of course, data augmentation might help to improve techniques such as brightness, flipping images etc.,
 
 
